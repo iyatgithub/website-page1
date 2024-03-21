@@ -1,0 +1,43 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In this class we discuss js basics</title>
+    <script> src="./event1.js"</script> 
+</head>
+<body>
+    <button onclick="update()"
+    onmouseover="console.log('mouse over')"
+    onmouseout="console.log('lef')" >update</button>
+</body>
+</html>
+
+
+
+function update(){
+comsole.log("event is fired");
+}
+//I want to create variable
+
+var x = 10;
+var y = 20;
+
+console.log (x*y) ;
+
+//I want to create function  in js
+
+function sum(a,b){
+    return a+b;
+
+}
+console.log(sum(x,y));
+
+//if i want to assign function to variable
+
+var mysum = sum;
+console.log(mysum);
+
+
+
+
